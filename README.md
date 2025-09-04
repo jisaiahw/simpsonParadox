@@ -124,10 +124,10 @@ comparison_plot <- (plot1 | plot2) +
     subtitle = "The same penguin data reveals opposite relationships when we ignore vs. consider species differences",
     caption = "Left: Overall positive trend (longer bills = deeper bills) | Right: Within-species negative trends (longer bills = shallower bills)\nThis paradox occurs because different species have different bill size ranges, creating a spurious positive correlation when aggregated.",
     theme = theme(
-      plot.title = element_text(size = 20, face = "bold", hjust = 0.5),
-      plot.subtitle = element_text(size = 14, hjust = 0.5, margin = margin(b = 20)),
-      plot.caption = element_text(size = 12, hjust = 0, face = "italic", 
-                                 margin = margin(t = 20), lineheight = 1.3)
+      plot.title = element_text(size = 18, face = "bold", hjust = 0.5),
+      plot.subtitle = element_text(size = 13, hjust = 0.5, margin = margin(b = 15)),
+      plot.caption = element_text(size = 11, hjust = 0, face = "italic", 
+                                 margin = margin(t = 15), lineheight = 1.2)
     )
   )
 
